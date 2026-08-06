@@ -1,4 +1,4 @@
-# Hi, I'm Jieyu
+# Hi, I'm Jieyu (Alice)
 
 I like building AI systems that remain useful beyond the demo: grounded, testable, and observable.
 
