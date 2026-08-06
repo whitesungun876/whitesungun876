@@ -2,7 +2,7 @@
 
 I like building AI systems that remain useful beyond the demo: grounded, testable, and observable.
 
-I'm completing an M.Sc. in IT & Cognition at the University of Copenhagen. My recent work focuses on RAG reliability, agent workflows, evaluation, guardrails, and human-centred AI. I'm looking for full-time **Applied AI** or **AI Solutions** roles in Denmark from September 2026.
+I'm completing an M.Sc. in IT & Cognition at the University of Copenhagen. My recent work focuses on RAG reliability, agent workflows, evaluation, guardrails, and human-centred AI. I'm looking for full-time **Applied AI** or **AI Solutions** roles from September 2026.
 
 ## Selected work
 
