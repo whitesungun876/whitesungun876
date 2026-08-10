@@ -2,7 +2,7 @@
 
 I like building AI systems that remain useful beyond the demo: grounded, testable, and observable.
 
-I'm completing an M.Sc. in IT & Cognition at the University of Copenhagen. My recent work focuses on RAG reliability, agent workflows, evaluation, guardrails, and human-centred AI. I'm looking for full-time **Applied AI** or **AI Solutions** roles from September 2026.
+I'm completing an M.Sc. in IT & Cognition at the University of Copenhagen. My recent work focuses on full-stack AI products, RAG reliability, agent workflows, evaluation, guardrails, and human-centred AI. I'm looking for full-time **Applied AI**, **AI Solutions**, or product-minded software engineering roles from September 2026.
 
 ## Selected work
 
@@ -10,13 +10,14 @@ I'm completing an M.Sc. in IT & Cognition at the University of Copenhagen. My re
 | --- | --- | --- |
 | [RAGOps Lens](https://github.com/whitesungun876/RAGOps-Lens) | A production-style RAG evaluation platform with FastAPI, PostgreSQL, pgvector, Qdrant, Docker, and Azure observability. | A 70-case evaluation suite; the calibrated composite gate caught all 5 no-answer cases with a 1.5% false-fallback rate. |
 | [GitHub Opportunity Miner](https://github.com/whitesungun876/Opportunity-Mining-Agent) | A full-stack LangGraph agent that turns GitHub issue evidence into traceable product opportunities and validation plans. | A verified live run processed 38 real GitHub items into one validated opportunity card with no pipeline errors. |
+| [CareMind](https://github.com/whitesungun876/Gemma4-Hackathon-ShangHai/tree/main/submissions/2026/track_C/CareMind) | A full-stack edge/cloud care-agent app for dementia family caregivers, turning scattered care notes into structured logs, daily focus items, communication scripts, and doctor-visit summaries. | Gemma4 Hackathon Track C submission with Android and iPhone privacy-mode demos, a deployed Cloud Run agent backend, and an [official PR](https://github.com/gdgshanghai/Gemma4-Hackathon-ShangHai/pull/64). |
 | [GazeRAG](https://github.com/whitesungun876/GazeRAG) | A research framework using radiologists' gaze as interpretable anatomical priors for hybrid retrieval. | Gaze-guided retrieval produced small but stable ranking improvements across evaluation settings. |
 
 ## Tools I use
 
 - **Primary:** Python — FastAPI, ML/LLM pipelines, retrieval, evaluation, testing
-- **Working proficiency:** SQL/PostgreSQL and TypeScript/JavaScript
-- **Systems:** Docker, Azure, CI/CD, MLflow, Application Insights
+- **Working proficiency:** SQL/PostgreSQL, TypeScript/JavaScript, React/React Native
+- **Systems:** Docker, Azure, Google Cloud Run, CI/CD, MLflow, Application Insights
 
 I care most about the parts that make AI systems dependable: evaluation, failure modes, evidence, and clear operational signals.
 
