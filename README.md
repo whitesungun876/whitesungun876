@@ -2,6 +2,8 @@
 
 **Applied AI engineer building reliable LLM, RAG, and agent systems.**
 
+[**Visit my portfolio →**](https://whitesungun876.github.io/) · [LinkedIn](https://www.linkedin.com/in/jieyulian/)
+
 I hold an M.Sc. in IT & Cognition from the University of Copenhagen. My work focuses on the engineering around models: retrieval, evaluation, guardrails, observability, API integration, and human-centred AI. I am based in Copenhagen and open to graduate and early-career Applied AI, AI Solutions, and AI product engineering roles.
 
 ## Featured work
