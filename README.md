@@ -4,7 +4,29 @@
 
 [**Visit my portfolio →**](https://whitesungun876.github.io/) · [LinkedIn](https://www.linkedin.com/in/jieyulian/)
 
-I hold an M.Sc. in IT & Cognition from the University of Copenhagen. My work focuses on the engineering around models: retrieval, evaluation, guardrails, observability, API integration, and human-centred AI. I am based in Copenhagen and open to graduate and early-career Applied AI, AI Solutions, and AI product engineering roles.
+I hold an M.Sc. in IT & Cognition from the University of Copenhagen. I turn AI product ideas into working prototypes, combining retrieval, evaluation, API integration, and human-centred design.
+
+**I can work independently**, taking ownership of scoping, implementation, and validation while keeping collaborators informed. **I am willing to relocate to Amsterdam** for an Applied AI, AI Solutions, or AI product engineering role.
+
+## From prototype to decision
+
+These examples use technical evaluation feedback, not claimed customer validation. Delivery times and customer adoption are not asserted.
+
+### GitHub Opportunity Miner
+
+- **Delivered:** A runnable FastAPI + Next.js prototype turning GitHub issues into source-linked opportunity cards, buyer hypotheses, and validation plans, with deterministic mock demos.
+- **Evaluation feedback:** The documented badcase suite checks weak evidence, duplicate opportunities, and unsupported willingness-to-pay claims. A recorded live run processed 38 GitHub items and produced one card passing the pipeline's validation rules—not proof of market demand.
+- **Decision:** Separate evidence quality from commercial validation. Keep willingness to pay as a hypothesis, and distinguish build, validate, watch, and reject recommendations.
+
+[Code and evaluation approach](https://github.com/whitesungun876/Opportunity-Mining-Agent)
+
+### Fund Facts Cross-Check
+
+- **Delivered:** An AI-assisted CLI prototype comparing two models' claims against synthetic fund factsheets. I selected the problem scope and model pair; Codex drafted the implementation and ran the checks.
+- **Evaluation feedback:** The documented checks cover 43 unit tests and 27 fixed cases. Deliberately broken unit normalisation and evidence gating trigger regression failures. I personally compared saved live claims and quotations with the synthetic sources and reviewed the mutation results.
+- **Decision:** Check source support independently of model agreement. Keep a narrow, controlled-language prototype; HTTP serving and authentication remain deferred.
+
+[Demo](https://whitesungun876.github.io/fund-facts-cross-check/) · [Contribution and AI-use disclosure](https://github.com/whitesungun876/fund-facts-cross-check/blob/main/AI_USE.md)
 
 ## Featured work
 
@@ -33,4 +55,4 @@ See the [full categorized project index](PROJECTS.md) for research projects, pro
 - **Backend & cloud:** Python, FastAPI, PostgreSQL, pgvector, Qdrant, Docker, Azure, Google Cloud Run
 - **Product interfaces:** TypeScript, React, Next.js, API integration, human-centred AI workflows
 
-[LinkedIn](https://www.linkedin.com/in/jieyulian/) · Copenhagen, Denmark
+[LinkedIn](https://www.linkedin.com/in/jieyulian/) · Willing to relocate to Amsterdam
