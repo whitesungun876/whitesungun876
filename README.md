@@ -6,7 +6,9 @@
 
 I hold an M.Sc. in IT & Cognition from the University of Copenhagen. My work spans data ingestion and processing, feature engineering, model evaluation, and LLM applications built around retrieval and tools. I focus on making results traceable and testing where systems fail.
 
-Open to Applied AI and AI engineering roles; willing to relocate to Amsterdam.
+I'm eager to learn, quick to adapt, and resilient in competitive environments. I work well both independently and as part of a team.
+
+Open to Applied AI, AI Solutions, and AI product engineering roles.
 
 ## Selected projects
 
