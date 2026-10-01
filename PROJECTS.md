@@ -1,13 +1,27 @@
 # Project Index
 
-This page groups my public work by the engineering problem it addresses. The featured projects contain the strongest evidence of end-to-end ownership; coursework is kept separately as a record of technical foundations.
+This page groups my public work by the engineering problem it addresses. Start with the [profile overview](README.md) for six selected projects. These repositories include prototypes, experiments, research and coursework; their READMEs describe the evidence and limitations.
+
+## Data engineering, machine learning and MLOps
+
+| Project | Focus | Scope |
+| --- | --- | --- |
+| [AML Transaction Review](https://github.com/whitesungun876/aml-transaction-review) | Temporal feature engineering, XGBoost ranking, review-budget evaluation and Databricks / MLflow / Delta batch scoring | Synthetic AML data; analyst-review portfolio project |
+| [ERP Risk MLOps](https://github.com/whitesungun876/erp-risk-mlops) | Rules, Isolation Forest and XGBoost comparison with experiment tracking and idempotent batch scoring | Exploratory experiment on simulated ERP records |
+
+## Model evaluation
+
+| Project | Focus | Scope |
+| --- | --- | --- |
+| [DeviceCare Decision Benchmark](https://github.com/whitesungun876/devicecare-decision-benchmark) | Two-model device-support routing benchmark, policy checks, repeatability and redacted decisions | Synthetic cases; partial human review documented |
+| [Fund Facts Cross-Check](https://github.com/whitesungun876/fund-facts-cross-check) | Two-model claim comparison, unit normalisation, citation validation and regression / mutation evaluation | CLI prototype using synthetic factsheets and controlled fields |
 
 ## Reliable LLM, RAG, and agent systems
 
 | Project | Focus | Status |
 | --- | --- | --- |
 | [RAGOps Lens](https://github.com/whitesungun876/RAGOps-Lens) | RAG evaluation, confidence gating, retriever comparison, SQL analytics, and Azure observability | Featured system |
-| [Opportunity Mining Agent](https://github.com/whitesungun876/Opportunity-Mining-Agent) | Evidence-first LangGraph agent for discovering and validating product opportunities from GitHub issues | Featured system |
+| [Opportunity Mining Agent](https://github.com/whitesungun876/Opportunity-Mining-Agent) | LangGraph agent turning GitHub issues into source-linked opportunity hypotheses and validation plans | Full-stack prototype |
 | [FaultLine](https://github.com/whitesungun876/faultline) | Deterministic failure mining and adversarial reliability measurement for tool-using LLM agents | Validated MVP |
 | [Budget-Aware Deep Research Agent](https://github.com/whitesungun876/deep-research-agent) | Planner–retrieval–memory–synthesis workflow with explicit context, tool-call, and cost budgets | Working prototype |
 
@@ -51,7 +65,6 @@ This page groups my public work by the engineering problem it addresses. The fea
 
 ## Repository conventions
 
-- Featured systems have a concise problem statement, architecture, reproducible setup, evaluation evidence, and known limitations.
-- Research repositories separate claims from frozen evidence and document reproducibility boundaries.
-- Coursework remains visible for technical breadth but is not presented as production experience.
-- Empty, duplicated, and superseded repositories are excluded from this directory pending archival review.
+- Read each repository's setup, evaluation evidence and limitations before interpreting its results.
+- Research results, synthetic benchmarks and coursework are distinct from production or customer evidence.
+- This is a curated directory, not a complete inventory of every repository.

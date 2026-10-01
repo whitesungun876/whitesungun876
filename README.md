@@ -1,58 +1,36 @@
 # Hi, I'm Jieyu (Alice) Lian
 
-**Applied AI engineer building reliable LLM, RAG, and agent systems.**
+**Applied AI engineer with foundations in data engineering and machine learning.**
 
-[**Visit my portfolio →**](https://whitesungun876.github.io/) · [LinkedIn](https://www.linkedin.com/in/jieyulian/)
+[Portfolio](https://whitesungun876.github.io/) · [LinkedIn](https://www.linkedin.com/in/jieyulian/) · [All projects](PROJECTS.md)
 
-I hold an M.Sc. in IT & Cognition from the University of Copenhagen. I turn AI product ideas into working prototypes, combining retrieval, evaluation, API integration, and human-centred design.
+I hold an M.Sc. in IT & Cognition from the University of Copenhagen. My work spans data ingestion and processing, feature engineering, model evaluation, and LLM applications built around retrieval and tools. I focus on making results traceable and testing where systems fail.
 
-**I can work independently**, taking ownership of scoping, implementation, and validation while keeping collaborators informed. **I am willing to relocate to Amsterdam** for an Applied AI, AI Solutions, or AI product engineering role.
+Open to Applied AI and AI engineering roles; willing to relocate to Amsterdam.
 
-## From prototype to decision
+## Selected projects
 
-These examples use technical evaluation feedback, not claimed customer validation. Delivery times and customer adoption are not asserted.
-
-### GitHub Opportunity Miner
-
-- **Delivered:** A runnable FastAPI + Next.js prototype turning GitHub issues into source-linked opportunity cards, buyer hypotheses, and validation plans, with deterministic mock demos.
-- **Evaluation feedback:** The documented badcase suite checks weak evidence, duplicate opportunities, and unsupported willingness-to-pay claims. A recorded live run processed 38 GitHub items and produced one card passing the pipeline's validation rules—not proof of market demand.
-- **Decision:** Separate evidence quality from commercial validation. Keep willingness to pay as a hypothesis, and distinguish build, validate, watch, and reject recommendations.
-
-[Code and evaluation approach](https://github.com/whitesungun876/Opportunity-Mining-Agent)
-
-### Fund Facts Cross-Check
-
-- **Delivered:** An AI-assisted CLI prototype comparing two models' claims against synthetic fund factsheets. I selected the problem scope and model pair; Codex drafted the implementation and ran the checks.
-- **Evaluation feedback:** The documented checks cover 43 unit tests and 27 fixed cases. Deliberately broken unit normalisation and evidence gating trigger regression failures. I personally compared saved live claims and quotations with the synthetic sources and reviewed the mutation results.
-- **Decision:** Check source support independently of model agreement. Keep a narrow, controlled-language prototype; HTTP serving and authentication remain deferred.
-
-[Demo](https://whitesungun876.github.io/fund-facts-cross-check/) · [Contribution and AI-use disclosure](https://github.com/whitesungun876/fund-facts-cross-check/blob/main/AI_USE.md)
-
-## Featured work
-
-| Project | What it demonstrates | Evidence |
+| Project | Engineering focus | Explore |
 | --- | --- | --- |
-| [RAGOps Lens](https://github.com/whitesungun876/RAGOps-Lens) | Production-style RAG evaluation platform using FastAPI, PostgreSQL/pgvector, Qdrant, Docker, and Azure observability. | 70-case evaluation suite, confidence-gated fallback, 45 unit tests, retrieval/latency/cost analytics. |
-| [GitHub Opportunity Miner](https://github.com/whitesungun876/Opportunity-Mining-Agent) | Full-stack LangGraph agent that converts GitHub evidence into traceable product opportunities and validation plans. | FastAPI + Next.js, GitHub GraphQL, Azure deployment, telemetry, and scheduled regression evaluation. |
-| [From Retrieval Alignment to Realised Utility](https://github.com/whitesungun876/retrieval-alignment-realised-utility) | Reproducible M.Sc. thesis experiments on experience retrieval for an LLM agent in TextWorldExpress CookingWorld. | Frozen protocols, outcome files, verification code, statistical analyses, checksums, and the submitted thesis. |
-| [FaultLine](https://github.com/whitesungun876/faultline) | Adversarial failure mining and deterministic reliability measurement for tool-using LLM agents. | Reproducible boundary cases, solvability proofs, programmatic checkers, tier comparisons, and archived traces. |
-| [GazeRAG](https://github.com/whitesungun876/GazeRAG) | Hybrid retrieval research using radiologists' eye gaze as interpretable anatomical priors. | BM25 + dense retrieval, gaze-aware reranking, sensitivity analysis, and MRR/nDCG/Recall evaluation. |
-| [CareMind](https://github.com/whitesungun876/Gemma4-Hackathon-ShangHai/tree/main/submissions/2026/track_C/CareMind) | Edge/cloud care-agent product for dementia family caregivers. | Mobile demos, structured care workflows, Cloud Run agent backend, and a public hackathon submission. |
+| [RAGOps Lens](https://github.com/whitesungun876/RAGOps-Lens) | RAG retrieval, evaluation, confidence gating and observability with FastAPI, pgvector and Qdrant. | [Architecture and evaluation](https://github.com/whitesungun876/RAGOps-Lens#readme) |
+| [GitHub Opportunity Miner](https://github.com/whitesungun876/Opportunity-Mining-Agent) | LangGraph + FastAPI + Next.js agent turning GitHub evidence into source-linked opportunity cards and validation plans. | [Workflow and demos](https://github.com/whitesungun876/Opportunity-Mining-Agent#readme) |
+| [Fund Facts Cross-Check](https://github.com/whitesungun876/fund-facts-cross-check) | Two-model comparison with structured outputs, citation checks and regression evals. Separates agreement from evidence support. | [Video demo](https://whitesungun876.github.io/fund-facts-cross-check/) · [Eval report](https://github.com/whitesungun876/fund-facts-cross-check/blob/main/demo/offline_eval.json) |
+| [AML Transaction Review](https://github.com/whitesungun876/aml-transaction-review) | XGBoost transaction ranking, temporal validation and review-budget evaluation; Databricks batch scoring with MLflow and Delta. | [Experiment](https://github.com/whitesungun876/aml-transaction-review/blob/main/reports/AML_EXPERIMENT.md) · [Acceptance evidence](https://github.com/whitesungun876/aml-transaction-review/blob/main/ACCEPTANCE.md) |
+| [DeviceCare Decision Benchmark](https://github.com/whitesungun876/devicecare-decision-benchmark) | Reproducible comparison of two models for device-support routing, with policy checks, repeated runs and documented review limits. | [Report](https://github.com/whitesungun876/devicecare-decision-benchmark/blob/main/M1_REPORT.md) |
+| [M.Sc. Thesis: Retrieval and Agent Utility](https://github.com/whitesungun876/retrieval-alignment-realised-utility) | Research on experience retrieval for an LLM agent, with frozen results, analysis and reproduction checks. | [Results and verification](https://github.com/whitesungun876/retrieval-alignment-realised-utility#readme) |
 
-## Project directory
+These repositories include prototypes, benchmarks and research. AML, DeviceCare and Fund Facts use synthetic data; opportunity cards are hypotheses, not evidence of customer demand. Repository READMEs document evaluation boundaries and AI assistance where applicable.
 
-- **Reliable LLM, RAG & agents:** [RAGOps Lens](https://github.com/whitesungun876/RAGOps-Lens), [Opportunity Miner](https://github.com/whitesungun876/Opportunity-Mining-Agent), [FaultLine](https://github.com/whitesungun876/faultline), [Budget-Aware Deep Research Agent](https://github.com/whitesungun876/deep-research-agent)
-- **AI safety & verifiable systems:** [InjectiveLens Agent Guard](https://github.com/whitesungun876/InjectiveLens-Agent-Guard), [MantleLens Wallet Guard](https://github.com/whitesungun876/mantlelens-wallet-guard), [RoboProof Demo](https://github.com/whitesungun876/roboproof-demo)
-- **Research, multimodal & human-centred AI:** [M.Sc. thesis materials](https://github.com/whitesungun876/retrieval-alignment-realised-utility), [GazeRAG](https://github.com/whitesungun876/GazeRAG), [Multimodal Speech Emotion Recognition](https://github.com/whitesungun876/ser_multimodal_project), [Multilingual Text Detoxification](https://github.com/whitesungun876/Multilingual-Text-Detoxification-), [Glimmer](https://github.com/whitesungun876/Glimmer)
-- **Learning in public:** [LLM Zoomcamp 2026](https://github.com/whitesungun876/llm-zoomcamp-2026-code)
+## Data engineering and ML foundations
 
-See the [full categorized project index](PROJECTS.md) for research projects, product prototypes, and earlier ML coursework.
+- **Data engineering:** data ingestion and cleaning, SQL, batch pipelines, data validation and repeatable writes. [ERP Risk MLOps](https://github.com/whitesungun876/erp-risk-mlops) and [AML Transaction Review](https://github.com/whitesungun876/aml-transaction-review) include Databricks / Delta batch workflows and MLflow model tracking.
+- **Machine learning:** feature engineering, classification, anomaly detection, temporal validation and imbalanced-data evaluation, including experiments with rules, Isolation Forest and XGBoost.
+- **Research and deep learning:** [multimodal speech emotion recognition](https://github.com/whitesungun876/ser_multimodal_project), [multilingual text detoxification](https://github.com/whitesungun876/Multilingual-Text-Detoxification-) and [gaze-informed retrieval](https://github.com/whitesungun876/GazeRAG).
 
-## Technical focus
+## Tools I use
 
-- **LLM applications:** RAG, agent/tool calling, LangGraph, Dify, structured outputs, confidence gating, safety guardrails
-- **Evaluation & observability:** golden datasets, recall@k, MRR, regression tests, failure analysis, latency and cost monitoring, MLflow, Application Insights
-- **Backend & cloud:** Python, FastAPI, PostgreSQL, pgvector, Qdrant, Docker, Azure, Google Cloud Run
-- **Product interfaces:** TypeScript, React, Next.js, API integration, human-centred AI workflows
+- **Data & ML:** Python · SQL · scikit-learn · XGBoost · MLflow · Databricks / Delta
+- **AI applications:** RAG · LangGraph · structured outputs · citation validation · regression evals
+- **Delivery:** FastAPI · PostgreSQL · pgvector / Qdrant · Docker · Azure · TypeScript / Next.js
 
-[LinkedIn](https://www.linkedin.com/in/jieyulian/) · Willing to relocate to Amsterdam
+[Browse the full project index →](PROJECTS.md)
